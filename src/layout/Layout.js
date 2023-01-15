@@ -4,7 +4,7 @@ import { activeAnimation, initCursor } from "../utils";
 import Header from "./Header";
 const Layout = ({ children }) => {
   useEffect(() => {
-    initCursor();
+    //initCursor();
     activeAnimation();
     window.addEventListener("scroll", activeAnimation);
   }, []);
@@ -33,7 +33,6 @@ const Layout = ({ children }) => {
         <Header />
         {children}
       </div>
-      <div className="cursor"></div>
     </Fragment>
   );
 };

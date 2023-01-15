@@ -17,8 +17,8 @@ const Footer = () => {
                   className="h-text scrolla-element-anim-1 scroll-animate"
                   data-animate="active"
                 >
-                  Ridgewood Queens, <br />
-                  NY 11385, USA
+                  San Diego, <br />
+                  CA 92109, USA
                 </div>
               </div>
             </div>
@@ -82,7 +82,7 @@ const Footer = () => {
                   data-animate="active"
                 >
                   <p>
-                    asteragency@domain.com
+                    roman@domain.com
                     <br />
                     +012 (234) 567 78
                   </p>
@@ -94,7 +94,7 @@ const Footer = () => {
                 className="copyright-text scrolla-element-anim-1 scroll-animate"
                 data-animate="active"
               >
-                Copyright © 2022 Aster
+                Copyright © 2023 Eclipse
               </div>
             </div>
           </div>

@@ -63,9 +63,9 @@ const Header = () => {
           </Link>
         </div>
         {/* menu btn */}
-        <a href="#" className="menu-btn full" onClick={(e) => toggleFun(e)}>
+        {/* <a href="#" className="menu-btn full" onClick={(e) => toggleFun(e)}>
           <span />
-        </a>
+        </a> */}
         {/* Menu Full Overlay */}
         <div className="menu-full-overlay">
           <div className="menu-full-container">

@@ -27,6 +27,12 @@ const App = ({ Component, pageProps }) => {
           type="text/css"
           media="all"
         />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap"
+          rel="stylesheet"
+        ></link>
         {/* CSS STYLES */}
         <link
           rel="stylesheet"
@@ -78,7 +84,7 @@ const App = ({ Component, pageProps }) => {
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
         <link rel="icon" href="favicon.ico" type="image/x-icon" />
       </Head>
-      {loader && <Preloader />}
+
       <Component {...pageProps} />
     </Fragment>
   );
